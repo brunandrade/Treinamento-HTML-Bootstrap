@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- SCRIPTS -->
+    <link rel="stylesheet" href="./../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="./../node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="./../assets/style/style.css">
+    <title>UserList</title>
+</head>
+
+<body>
+    <div class="container">
+            <div class="Header">
+                    ​<figure class="displayed">
+                        <source srcset="./../assets/img/logo.png" type="image">
+                        <img src="./../assets/img/logo.png" class="img-fluid" alt="...">
+                    </figure>                    
+            </div>
+        <div class="body">           
+            <div class="container-fluid formList">
+                    <div class="col text-center">
+                            <h4>Lista de Usuários</h4>
+                            <br/>
+                    </div>
+                    <div class="filter">
+                            <div class="row align-items-start">
+                                <div class="col-sm-2 col-md-2 col-xl-2">
+                                    <label for="statusId" >STATUS</label>                                  
+                                    <select class="form-control" id="statusId">
+                                        <option>Pendente</option>
+                                        <option>Aprovado</option>
+                                        <option>Em Analise</option>
+
+                                    </select>                                  
+                                </div>
+                                <div class="col-sm">
+                                    <label for="nameId" >NOME</label>
+                                    <input type="text" class="form-control" id="nameId" aria-describedby="emailHelp" placeholder="Nome">
+                                </div>
+                                <div class="col-sm">
+                                    <label for="CPFId" >CPF</label>
+                                    <input type="text" class="form-control" id="CPFId" aria-describedby="emailHelp" placeholder="CPF">
+                                </div>
+                                <div class="col-sm">
+                                        <label for="exampleInputDate" >DATA DE NASCIMENTO</label>
+                                        <input type="date" class="form-control" id="exampleInputDate" aria-describedby="emailHelp" placeholder="Data de nascimento">
+                                </div>                             
+                                <div class="col">
+                                    <br/>
+                                    
+                                    <button type="button" class="btn btn-primary ">Buscar</button>  
+                                </div> 
+                            </div>
+                        </div>
+                        <table class="table table-striped">
+                                <thead class="thead-light">
+                                  <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Id</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col">Nome</th>
+                                    <th scope="col">CPF</th>
+                                    <th scope="col">Data de nascimento</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>01</td>
+                                    <td>Aprovado</td>
+                                    <td>Bruna Andrade</td>
+                                    <td>000.000.000-00</td>
+                                    <td>00/00/0000</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>02</td>
+                                    <td>Pendente</td>
+                                    <td>Tarcio Carvalho</td>
+                                    <td>000.000.000-00</td>
+                                    <td>00/00/0000</td>
+                                  </tr>                                  
+                                </tbody>
+                        </table>
+            </div>
+        </div>
+        <scripts>
+            <script src="./../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>           
+        </scripts>
+    </div>
+</body>
+</html>

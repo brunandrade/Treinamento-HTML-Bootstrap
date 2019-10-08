@@ -1,0 +1,79 @@
+body {
+    padding: 30px;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.formClass {
+      
+        background-color: #FFF;
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        border-radius: 5px;
+    }
+
+.formList {
+
+        background-color: #FFF;
+        width: 85%;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        border-radius: 5px;
+    }
+
+label{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: helvetica, Arial, sans-serif;
+    color: rgb(85, 85, 85);
+}
+
+::-webkit-input-placeholder{
+    color:#C4C;   
+    font-size: 10px;
+    font-family: helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-style: bold;
+}
+
+input{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+button{
+    
+    padding-top: 10px;
+}
+
+h4{
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(85, 85, 85);
+}
+
+.filter {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    margin-bottom: 10px;
+
+}
+
+figure.displayed {
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
